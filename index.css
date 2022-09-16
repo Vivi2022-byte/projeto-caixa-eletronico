@@ -1,0 +1,45 @@
+* {
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+    font-size: 20px;
+    width: 100vw;
+    max-width: 100%;
+    max-height: 100vh;
+}
+.titulo {
+    text-align: center;
+    margin: 2rem;
+    font-family: 'Roboto Mono';
+}
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.div-main {
+    margin: 2rem;
+    width: 50vw;
+    font-family: 'Montserrat';
+}
+.imagem {
+    border-radius: 100%;
+    width: 600px;
+    height: 500px;
+}
+.titulo-instrucoes {
+    margin: 1rem;
+}
+.ulist {
+    margin: 0.5rem;
+}
+.ulist li {
+    margin: 0.2rem;
+    text-align: justify;
+}
